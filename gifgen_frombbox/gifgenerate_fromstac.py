@@ -10,8 +10,6 @@ from datetime import datetime, timezone, timedelta
 import requests
 from datetime import datetime
 from shapely import box
-from shapely.geometry import mapping, shape
-from pystac_client import Client
 import rasterio
 import rasterio.mask
 from rasterio.io import MemoryFile
